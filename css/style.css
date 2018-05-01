@@ -216,13 +216,14 @@ nav li:first-child {
     cursor: pointer;
 }
 .card:hover {
-    background-color: black;
+    background-color: #943c1c;
 }
 .card .preview {
     width: 100%;
     height: auto;
 }
 .card .body {
-    background-color: #ebebeb;
+    background-color: #b86660;
     padding: 1rem;
+    font-size: 14px;
 }

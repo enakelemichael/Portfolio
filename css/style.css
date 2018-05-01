@@ -1,0 +1,236 @@
+/*
+    Green:      #54be90
+    Light Grey: #ebebeb
+    Dark Grey:  #232323
+    Grey Text:  #444444
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#header {
+    font-size: 0;
+}
+
+#logo {
+    width: 200px;
+    display: inline-block;
+}
+
+nav {
+    background-color: #232323;
+    font-size: 0;
+    color: white;
+    display: inline-block;
+    width: calc(100% - 200px);
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1rem;
+    list-style-type: none;
+    width: 20%;
+    text-align: center;
+    border-left: 1px solid lightgray;
+}
+
+nav li:first-child {
+    border: none;
+}
+
+#banner {
+    padding: 3rem;
+    height: 350px;
+    margin-top: 50px;
+    background-image: url('../img/sun.jpg');
+    background-size: cover;
+}
+
+#banner .greeting {
+    font-size: 240%;
+    font-weight: bold;
+    color:  white;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 4px 3px black;
+}
+
+#banner .whoiam {
+    font-size: 180%;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 3px black;
+}
+
+#info {
+    padding: 2rem 4rem;
+    text-align: center;
+    background-color: #f1b57d;
+    padding: 40px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#promo {
+    font-size: 0;
+    padding: 2rem 1rem;
+    background-color: #232323;
+    color: white;
+    text-align: left right;
+    padding: 20px;
+}
+
+#promo > .column {
+    font-size: 1rem;
+    display: inline-block;
+    width: 25%;
+    padding: 1rem 2rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+#promo > .column .heading {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-style:none;
+    align-items: center;
+}
+
+.myskills {
+    font-size: 50px;
+    border: 5px #943c1c;
+    border-style: solid;
+    background-color: #b86660;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.bars{
+    width: 80%;
+}
+.bar {
+    background-color: rgb(103, 71, 118);
+    height: 2rem;
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.label{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.progress {
+    background-color:#943c1c;
+    width: 70%;
+    height: 100%;
+    font: bold;
+}
+.remaining{
+    text-align: right;
+    flex-grow: 1;
+}
+.percent{
+    color: white;
+    margin-right: 5px;
+}
+.progress1 {
+    background-color:#943c1c;
+    width: 60%;
+    height: 100%;
+    font: bold;
+}
+.progress2 {
+    background-color:#943c1c;
+    width: 50%;
+    height: 100%;
+    font: bold;
+}
+.progress3 {
+    background-color:#943c1c;
+    width: 40%;
+    height: 100%;
+    font: bold;
+}
+.myportfolio{
+    height: 100%;
+    margin-top: 40px;
+    background-color: #f1b57d;
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    font: bold;
+    padding: 10px;
+}
+#myport{
+    display: flex;
+    width: 200px;
+    margin: 1px;
+    justify-content: stretch;
+}
+.myport{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+.portitem {
+    background: tomato;
+    padding: 0;
+    height: 100%;
+    margin-top: 10px;
+    line-height: 250px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    justify-content: space-around;
+    flex-basis: 30%;
+    margin-bottom: 10px;
+  }
+
+
+

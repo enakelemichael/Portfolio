@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 960px;
+    max-width: 960px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -270,6 +270,19 @@ nav li:first-child {
     font-size: 14px;
     height: 150px;
 }
+.social{
+    background-color: #f1b57d;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.social1{
+    padding: 10px;
+    size: 18pt;
+    padding-top: 10px;
+    margin: 20px;
+}
 #aboutme {
     background-color: #943c1c;
     padding-top: 10px;
@@ -278,7 +291,7 @@ nav li:first-child {
     font-size: 25px;
     padding-bottom: 70px;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 .abt {
@@ -286,7 +299,6 @@ nav li:first-child {
     font-size: 20px;
     background-color:#943c1c;
     flex-direction: row;
-    width: 850px;
     padding-bottom: 10px;
     padding-left: 10px;
     text-align: justify;
@@ -308,7 +320,6 @@ nav li:first-child {
 
 }
 .contact1{
-    width: 960px;
     background-color: #b86660;
     margin-left: auto;
     margin-right: auto;
@@ -319,19 +330,18 @@ nav li:first-child {
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    background: transparent;
 }
 
 input[type=submit] {
     background-color: #00c8f8;
     color: white;
-    padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -346,4 +356,15 @@ input[type=submit]:hover {
     text-align: center;
     background-color: #b86660;
     font-size: 40px;
+}
+.foot {
+    padding: 20px;
+    background-color: #943c1c;
+    font-size: 15px;
+    text-align: center;
+}
+#ft{
+    font-size: 28pt;
+    font-weight: bold;
+    padding: 5px;
 }
